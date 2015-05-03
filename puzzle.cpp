@@ -172,7 +172,7 @@ void puzzle::hint(string correct,int num, int htry)
 
 	if(correct == answers[num].word && htry == 2)
 	{
-		cout << "There are a total of "<<tot<<" letters."<<endl;
+		cout << "There are a total of "<<correct.size()<<" letters."<<endl; //Aubree Lytwyn changed to correct.size() in order to print out correct number of letters in the word
 	}
 
 	if(correct == answers[num].word && htry == 3)
